@@ -16,5 +16,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  array.size.times do |i|   q
+  min = 0
+  array.size.times do |i|
+    if array [i] <= 
 end
