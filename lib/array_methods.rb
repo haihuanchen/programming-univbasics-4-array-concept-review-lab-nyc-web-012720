@@ -10,7 +10,9 @@ end
 find_element_index(array, 5)
 
 def find_max_value(array)
-
+  array.size.times do |i|
+    if array [i] >= i
+      array = array[i]
 end
 
 def find_min_value(array)
